@@ -93,7 +93,7 @@ function Blog() {
       </div>
 
       <button className="md:mt-8 mb-10 md:mb-0 text-[20px] font-poppins font-medium leading-[30px] text-[#000000] py-2 border-b-[0.5px] border-[#000000]">
-        <Link href="/">
+        <Link href="/blog">
           View All Post
         </Link>
       </button>
