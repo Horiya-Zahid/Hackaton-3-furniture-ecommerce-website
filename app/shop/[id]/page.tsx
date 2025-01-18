@@ -180,7 +180,7 @@ const ProductDetail = () => {
       {/* for products detail */}
       <div className="w-full flex justify-center items-center mt-40">
         <div className="w-full md:w-[60%] flex flex-col md:flex-row items-center md:items-start">
-          <img
+          <Image
             src={product.image}
             alt={product.name}
             className="object-contain"
