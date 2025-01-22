@@ -2,7 +2,9 @@ import React from "react";
 import Image from "next/image";
 import { FaTrash } from "react-icons/fa";
 import Link from "next/link";
-import Header from "../Components/Header";
+import dynamic from "next/dynamic"; 
+
+const Header = dynamic(() => import("../Components/Header"));
 
 function page() {
   return (

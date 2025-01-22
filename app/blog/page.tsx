@@ -6,8 +6,11 @@ import {
   FaTag,
   FaUserAlt,
 } from "react-icons/fa";
-import Header from "../Components/Header";
+
 import { CiSearch } from "react-icons/ci";
+import dynamic from "next/dynamic"; 
+
+const Header = dynamic(() => import("../Components/Header"));
 
 function page() {
   return (
